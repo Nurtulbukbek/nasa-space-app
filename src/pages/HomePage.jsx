@@ -10,7 +10,7 @@ function HomePage() {
                 <div className="container">
                     <div className="homePage">
                         <div className="statelite">
-                            <img src="public/statelite.png" alt="statelite" />
+                            <img src="/statelite.png" alt="statelite" />
                         </div>
 
                         <div className="homeText">
@@ -23,10 +23,10 @@ function HomePage() {
 
                         <div className="oceancat">
                             <div className="blueDuga">
-                                <img src="public/blueDuga.png" alt="" />
+                                <img src="/blueDuga.png" alt="" />
                                 <p>Oceanmeow</p>
                             </div>
-                            <img className="oceancat" src="public/oceancat.png" alt="oceancat" />
+                            <img className="oceancat" src="/oceancat.png" alt="oceancat" />
                         </div>
                     </div>
                 </div>
