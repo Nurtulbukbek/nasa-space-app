@@ -3,7 +3,7 @@ function BackgroundUp() {
     return(
         <>
             <div className="bgUp">
-                <img src="public/space.png" alt="" className="bgSpace" />
+                <img src="/space.png" alt="" className="bgSpace" />
             </div>
         </>
     )
