@@ -5,13 +5,13 @@ function Header() {
         <>
             <div className="header">
                 <Link to={'/Home'}>
-                    <span className="headerText">Home</span>
+                    <span className="headerText">HOME</span>
                 </Link>
                 <Link to={'/Home'}>
-                    <span className="headerText">Quiz</span>
+                    <span className="headerText">QUIZ</span>
                 </Link>
                 <Link to={'/Home'}>
-                    <span className="headerText">Info</span>
+                    <span className="headerText">INFO</span>
                 </Link>
             </div>
         </>

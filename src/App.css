@@ -1,1 +1,78 @@
 
+/* -------------Background images------------ */
+.container {
+    margin: 0 30px;
+}
+
+.bgDown, .bgUp {
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.bgDown img, .bgUp img {
+    max-width: 100%;
+}
+
+.bgSpace, .bgSea {
+    position: absolute;
+    z-index: -1;
+}
+
+/* -----------------Header---------------- */
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.headerText {
+    font-size: 25px;
+}
+
+
+/* --------------------Homepage---------------- */
+
+
+.homePage {
+    display: flex;
+    flex-direction: column;
+}
+.statelite img {
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+.homeText{
+    justify-self: center;
+}
+.homeText h1 {
+    font-size: 52px;
+    font-weight: bold;
+}
+.homeText h3 {
+    width: 50%;
+}
+
+.oceancat {
+    display: flex;
+    align-items: end;
+    align-self: flex-end;
+}
+
+.blueDuga {
+    display: flex;
+    flex-direction: column;
+}
+
+.blueDuga p {
+    color: #29CBEE;
+}
+
+.blueDuga img {
+    align-self: end;
+    position: relative;
+    margin-right: -25px;
+}
