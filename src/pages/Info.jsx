@@ -136,7 +136,7 @@ function Info() {
                                             </div>
                                             <div className="instagram contact">
                                                 <img src="instagramIcon.png" alt="tg" />
-                                                <span>@</span>
+                                                <span>@melike_rm</span>
                                             </div>
                                         </div>
                                     </div>
