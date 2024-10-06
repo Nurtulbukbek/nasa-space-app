@@ -63,7 +63,7 @@
 .oceancat {
     display: flex;
     align-items: end;
-    align-self: flex-start;
+    align-self: flex-end;
 }
 
 .blueDuga {
@@ -90,7 +90,6 @@
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
-    
 }
 
 .planet {
@@ -141,6 +140,7 @@
 
 .oceanmeow {
     align-self: start;
+    justify-self: start;
     display: flex;
     flex-direction: column;
 }
@@ -164,13 +164,13 @@
     justify-content: space-between;
 }
 
-.planets {
+.levelPlanets {
     display: flex;
     justify-content: space-between;
     width: 400px;
 }
 
-.planets .secondPlanet {
+.levelPlanets .secondPlanet {
     height: 100px;
 }
 
@@ -184,6 +184,11 @@
 
 .quizQuestions {
     width: 40vw;
+}
+
+.questionPhoto {
+    height: 300px;
+    border: 2px solid white;
 }
 
 .question {
@@ -224,31 +229,90 @@
 }
 
 .profile {
-    background-color: #29CBEE;
-    border-radius: 25px;
-    height: 200px;
-    width: 250px;
+    display: flex;
+    flex-direction: column;
 
+    background-color: #2465B5;
+    border-radius: 25px;
+    height: 250px;
+    width: 450px;
+    padding: 10px;
+}
+
+.profileTitle {
+    height: 5%;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.info {
+    height: 95%;
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
 
 .photo {
-    background-color: #fff;
     width: 40%;
     height: 70%;
     align-self: center;
+}
+
+.profImage {
+    position: relative;
+    top: -20px;
+}
+
+.profImage img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
 }
 
 .description {
     width: 50%;
     text-align: center;
     margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
 }
 
-.descContainer {
+.descBox {
     border-bottom: 1px solid white;
+}
+
+.descBox p {
+    font-size: 16px;
+}
+
+.contacts {
+    justify-self: start;
+    align-self: flex-start;
+}
+
+.contact {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.contact img {
+    height: 20px;
+    width: auto;
+}
+
+.stateliteInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meowWords3 {
+    height: 150px;
+    position: relative;
+    right: -20px;
 }
 
 /* @media(max-width: 792px) {

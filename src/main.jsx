@@ -28,8 +28,8 @@ const router = createBrowserRouter([
     element: <Quiz/>,
   },
   {
-    path: "/",
-    element: <App/>,
+    path: "/Info",
+    element: <Info/>,
   },
   {
     path: "/Quiz/Level1",

@@ -28,9 +28,6 @@ function Quiz() {
                                         </Link>
                                         
                                     </div>
-                                    
-                                            
-
                                     <div>
                                         <Link to={"/Quiz/Level1"}>
                                             <img className="planet3 planet" src="/venus.png" alt="venus" />
@@ -66,11 +63,11 @@ function Quiz() {
                                         </Link>
                                     </div>
                             </div>
-
-                            <div className="oceanmeow">
+                        </div>
+                        
+                        <div className="oceanmeow">
                                 <img className="meowsWords" src="/meowsWords.png" alt="" />
-                                <img className="oceanmeow" src="/oceancat.png" alt="oceancat" />
-                            </div>
+                                <img className="oceanmascot" src="/oceancat.png" alt="oceancat" />
                         </div>
                     </div>
                 </div>

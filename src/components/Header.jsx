@@ -10,7 +10,7 @@ function Header(props) {
                 <Link to={'/Quiz'} >
                     <span className="headerText" style={{color: props.color2}}>QUIZ</span>
                 </Link>
-                <Link to={'/'} style={{color: props.color}}>
+                <Link to={'/Info'} style={{color: props.color}}>
                     <span className="headerText" style={{color: props.color3}}>INFO</span>
                 </Link>
             </div>

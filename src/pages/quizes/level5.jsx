@@ -9,10 +9,10 @@ function Level5() {
 
     const [selectedItem, setSelectedItem] = useState("")
 
-    const handleItemClick1 = () => setSelectedItem('Mercury');
-    const handleItemClick2 = () => setSelectedItem('Uran');
-    const handleItemClick3 = () => setSelectedItem('Mars');
-    const handleItemClick4 = () => setSelectedItem('Earth');
+    const handleItemClick1 = () => setSelectedItem('a');
+    const handleItemClick2 = () => setSelectedItem('b');
+    const handleItemClick3 = () => setSelectedItem('c');
+    const handleItemClick4 = () => setSelectedItem('d');
     
     
     
@@ -26,7 +26,7 @@ function Level5() {
                 
                 <div className="statelite levelTop">
                     <img src="/statelite.png" alt="statelite" />
-                    <div className="planets">
+                    <div className="levelPlanets">
                         <img className="secondPlanet" src="/jupiter.png" alt="" />
                         <img src="/sun.png" alt="" />
                     </div>
@@ -35,35 +35,40 @@ function Level5() {
                     <div className="quizQuestions">
                         <h1 className="levelTitle">LEVEL 5</h1>
                         <div className="question">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Doloremque molestiae sunt rem libero ea nobis?
+                            What is a natural satellite of the earth
                         </div>
                         <div className="answers">
                             
                                 <div className="answer"  
                                 onClick={handleItemClick1} 
                                 style={{
-                                        color: selectedItem === 'Mercury' ? 'red' : 'white',
+                                        color: selectedItem === 'a' ? 'red' : 'white',
                                         cursor: 'pointer',
                                         }}>
-                                    Mercury
+                                    Sun
                                 </div>
-                                <div className="answer"  onClick={handleItemClick2} style={{
-                                                                                                color: selectedItem === 'Uran' ? 'green' : 'white',
-                                                                                                cursor: 'pointer',
-                                                                                            }}>
-                                    Uran
+                                <div className="answer"  
+                                onClick={handleItemClick2} 
+                                style={{
+                                            color: selectedItem === 'b' ? 'red' : 'white',
+                                            cursor: 'pointer',
+                                        }}>
+                                    Star
                                 </div>
-                                <div className="answer"  onClick={handleItemClick3} style={{
-                                                                                                color: selectedItem === 'Mars' ? 'red' : 'white',
-                                                                                                cursor: 'pointer',
-                                                                                            }}>
-                                    Mars
+                                <div className="answer"  
+                                onClick={handleItemClick3} 
+                                style={{
+                                            color: selectedItem === 'c' ? 'green' : 'white',
+                                            cursor: 'pointer',
+                                        }}>
+                                    Moon
                                 </div>
-                                <div className="answer"  onClick={handleItemClick4} style={{
-                                                                                                color: selectedItem === 'Earth' ? 'red' : 'white',
-                                                                                                cursor: 'pointer',
-                                                                                            }}>
+                                <div className="answer"  
+                                onClick={handleItemClick4} 
+                                style={{
+                                            color: selectedItem === 'd' ? 'red' : 'white',
+                                            cursor: 'pointer',
+                                        }}>
                                     Earth
                                 </div>
                         </div>     
@@ -77,7 +82,7 @@ function Level5() {
                     </div>
                 </div>
                 <div className="oceanmeow">
-                    <img className="meowsWords" src="/meowsWords.png" alt="" />
+                    <img className="meowsWords" src="/meowsWords2.png" alt="" />
                     <img className="oceanmeow" src="/oceancat.png" alt="oceancat" />
                 </div>
             </div>
