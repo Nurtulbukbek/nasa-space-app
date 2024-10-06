@@ -4,18 +4,23 @@
     margin: 0 30px;
 }
 
-.bgDown, .bgUp {
-    justify-self: end;
-    display: flex;
-    flex-direction: column;
+.bgSpace {
+    height: 40%;
     width: 100vw;
 }
 
-.bgDown img, .bgUp img {
-    max-width: 100%;
+.bgSea {
+    height: 20vh;
+    width: 100vw;
+    align-self: end;
 }
 
-.bgSpace, .bgSea {
+.bgDown, .bgUp {
+    display: flex;
+    flex-direction: column;
+}
+
+.bgSpace, .bgBigSpace, .bgSea {
     position: absolute;
     z-index: -1;
 }
@@ -42,15 +47,16 @@
 }
 .statelite img {
     height: 140px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .homeText{
     justify-self: center;
 }
 .homeText h1 {
-    font-size: 52px;
+    font-size: 3em;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 .homeText h3 {
     width: 50%;
@@ -76,3 +82,97 @@
     position: relative;
     margin-right: -25px;
 }
+
+/* --------------------Quiz---------------- */
+.bgBigSpace {
+    width: 100vw;
+    height: 100vh;
+}
+
+.planetsImgs {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    
+}
+
+.planet {
+    width: auto;
+    height: 100px;
+    position: relative;
+}
+
+.planet1 {
+    top: -170px;
+    height: 200px;
+}
+
+.planet2 {
+    top: -100px;
+    left: -50px;
+}
+
+.planet3 {
+    bottom: -85px;
+    right: -150px;
+}
+
+.planet4 {
+    right: -80px;
+    bottom: -50px;
+}
+
+.planet5 {
+    right: -80px;
+    bottom: 140px; 
+}
+
+.planet6 {
+    right: -160px;
+    bottom: -140px; 
+}
+
+.planet7 {
+    right: -80px;
+    bottom: 140px; 
+}
+
+.planet8 {
+    right: -280px;
+    bottom: 0px; 
+}
+
+.oceanmeow {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+}
+.meowsWords {
+    height: 100px;
+    position: relative;
+    right: -150px;
+}
+
+/* @media(max-width: 792px) {
+    .homeText h1 {
+        font-size: 2em;
+    }
+    .homeText h3 {
+        font-size: 1em;
+    }
+    .homeText h3 span {
+        display: none;
+    }
+
+    .headerText {
+        font-size: 18px;
+    }
+
+    .bgUp img {
+        height: 20%;
+    }
+
+
+    .planetsImgs {
+    }
+} */

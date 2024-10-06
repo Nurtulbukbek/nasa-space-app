@@ -5,8 +5,8 @@ function HomePage() {
 
     return(
         <>
-            <BackgroundUp/>
-            <Header/>
+            <BackgroundUp bgBig = "none"/>
+            <Header color1 = "#29CBEE" />
                 <div className="container">
                     <div className="homePage">
                         <div className="statelite">
@@ -18,9 +18,9 @@ function HomePage() {
                             <h3>
                                 Our project, which is called ExplorePACE, is dedicated to educate young 
                                 generation about PACE mission launched by NASA. Our main goal is 
-                                to make science more accessible and enjoyable, therefore we created a website, 
+                                to make science more accessible and enjoyable. <span>Therefore we created a website, 
                                 a fun and engaging platform, to spark the student`s interest in the scientific exploration of Earth, 
-                                particularly oceanography and climate change, and help teachers to engage them during the lessons.
+                                particularly oceanography and climate change, and help teachers to engage them during the lessons.</span>
                             </h3>
                         </div>
 
