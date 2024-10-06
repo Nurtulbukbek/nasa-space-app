@@ -6,18 +6,17 @@
 
 .bgSpace {
     height: 40%;
-    width: 100vw;
 }
 
 .bgSea {
     height: 20vh;
-    width: 100vw;
     align-self: end;
 }
 
-.bgDown, .bgUp {
+.bgDown img, .bgUp img {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .bgSpace, .bgBigSpace, .bgSea {
@@ -85,7 +84,6 @@
 
 /* --------------------Quiz---------------- */
 .bgBigSpace {
-    width: 100vw;
     height: 100vh;
 }
 
