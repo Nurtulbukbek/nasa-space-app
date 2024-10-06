@@ -43,7 +43,7 @@ function Level6() {
                                 <div className="answer"  
                                 onClick={handleItemClick1} 
                                 style={{
-                                        color: selectedItem === 'a' ? 'green' : 'white',
+                                        color: selectedItem === 'a' ? 'red' : 'white',
                                         cursor: 'pointer',
                                         }}>
                                     Aeorosol
@@ -67,7 +67,7 @@ function Level6() {
                                 <div className="answer"  
                                 onClick={handleItemClick4} 
                                 style={{
-                                            color: selectedItem === 'd' ? 'red' : 'white',
+                                            color: selectedItem === 'd' ? 'green' : 'white',
                                             cursor: 'pointer',
                                         }}>
                                     Ocean

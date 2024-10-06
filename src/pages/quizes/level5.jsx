@@ -35,7 +35,7 @@ function Level5() {
                     <div className="quizQuestions">
                         <h1 className="levelTitle">LEVEL 5</h1>
                         <div className="question">
-                            What is a natural satellite of the earth
+                            What is pace?
                         </div>
                         <div className="answers">
                             
@@ -45,7 +45,7 @@ function Level5() {
                                         color: selectedItem === 'a' ? 'red' : 'white',
                                         cursor: 'pointer',
                                         }}>
-                                    Sun
+                                    Natural satellite of the earth
                                 </div>
                                 <div className="answer"  
                                 onClick={handleItemClick2} 
@@ -53,7 +53,7 @@ function Level5() {
                                             color: selectedItem === 'b' ? 'red' : 'white',
                                             cursor: 'pointer',
                                         }}>
-                                    Star
+                                    Moon
                                 </div>
                                 <div className="answer"  
                                 onClick={handleItemClick3} 
@@ -61,7 +61,7 @@ function Level5() {
                                             color: selectedItem === 'c' ? 'green' : 'white',
                                             cursor: 'pointer',
                                         }}>
-                                    Moon
+                                    NASA's earth-observing satellite 
                                 </div>
                                 <div className="answer"  
                                 onClick={handleItemClick4} 
@@ -69,7 +69,7 @@ function Level5() {
                                             color: selectedItem === 'd' ? 'red' : 'white',
                                             cursor: 'pointer',
                                         }}>
-                                    Earth
+                                    Alternative energy source 
                                 </div>
                         </div>     
                     </div>

@@ -35,25 +35,25 @@ function Level7() {
                     <div className="quizQuestions">
                         <h1 className="levelTitle">LEVEL 7</h1>
                         <div className="question">
-                           What is the biggest planet in our Solar System
+                            PACE can observe all of the following EXCEPT
                         </div>
                         <div className="answers">
                             
                                 <div className="answer"  
                                 onClick={handleItemClick1} 
                                 style={{
-                                        color: selectedItem === 'a' ? 'red' : 'white',
+                                        color: selectedItem === 'a' ? 'green' : 'white',
                                         cursor: 'pointer',
                                         }}>
-                                    Saturn
+                                    Earth surface 
                                 </div>
                                 <div className="answer"  
                                 onClick={handleItemClick2} 
                                 style={{
-                                            color: selectedItem === 'b' ? 'green' : 'white',
+                                            color: selectedItem === 'b' ? 'red' : 'white',
                                             cursor: 'pointer',
                                         }}>
-                                    Jupiter
+                                    Global ocean color
                                 </div>
                                 <div className="answer"  
                                 onClick={handleItemClick3} 
@@ -61,7 +61,7 @@ function Level7() {
                                             color: selectedItem === 'c' ? 'red' : 'white',
                                             cursor: 'pointer',
                                         }}>
-                                    Uran
+                                    Aerosols  
                                 </div>
                                 <div className="answer" 
                                 onClick={handleItemClick4} 
@@ -69,7 +69,7 @@ function Level7() {
                                             color: selectedItem === 'd' ? 'red' : 'white',
                                             cursor: 'pointer',
                                         }}>
-                                    Earth
+                                    Clouds 
                                 </div>
                         </div>     
                     </div>
