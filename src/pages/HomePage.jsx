@@ -9,7 +9,7 @@ function HomePage() {
             <Header color1 = "#29CBEE" />
                 <div className="container">
                     <div className="homePage">
-                        <div className="statelite">
+                        <div className="stateliteHome">
                             <img src="/statelite.png" alt="statelite" />
                         </div>
 
